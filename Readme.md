@@ -282,6 +282,27 @@ Current confirmed firmware:
 Upgrade firmware **only if you want to move to `adapter: ember`**.
 
 ---
+## Anydesk
+To have remote control install anydesk
+
+
+Run it
+
+Save as setup_anydesk_unattended.py, then:
+```
+sudo python3 setup_anydesk_unattended.py --user gert --enable-autologin --enable-ssh
+sudo reboot
+```
+After reboot:
+```
+echo $XDG_SESSION_TYPE
+anydesk
+```
+
+Then set the unattended password in the GUI.
+
+
+---
 
 ## Common pitfalls
 
