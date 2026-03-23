@@ -1,0 +1,447 @@
+{
+    "0x2c1165fffee9e3c4": {
+        "update": {
+            "state": "idle",
+            "installed_version": 65554,
+            "latest_version": 65554,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/zingo-lds-bulb-hwpwmcs-ws_release_prod_v65554_5d50205c-63c3-426d-bfba-4839c4b55bba.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "state": "ON",
+        "brightness": 254,
+        "linkquality": 100,
+        "color_mode": "color_temp",
+        "color_temp": 250
+    },
+    "0x847127fffed1fe1f": {
+        "update": {
+            "state": "idle",
+            "installed_version": 587814449,
+            "latest_version": 587814449,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/tradfri-sy5882-bulb-ws_release_prod_v587814449_185b3c4d-da1b-4867-8c16-2cee1fc5c11d.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "state": "ON",
+        "brightness": 102,
+        "linkquality": 152,
+        "color_mode": "color_temp",
+        "color_temp": 294
+    },
+    "0x84fd27fffec21bf4": {
+        "update": {
+            "state": "idle",
+            "installed_version": 65554,
+            "latest_version": 65554,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/zingo-lds-bulb-hwpwmcs-ws_release_prod_v65554_5d50205c-63c3-426d-bfba-4839c4b55bba.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "brightness": 94,
+        "state": "ON",
+        "linkquality": 120,
+        "color_mode": "color_temp",
+        "color_temp": 294
+    },
+    "0x00124b00234311db": {
+        "state": "ON",
+        "linkquality": 104
+    },
+    "0xa4c1382c6b0ce40d": {
+        "brightness": 177,
+        "state": "OFF",
+        "linkquality": 160
+    },
+    "0x44e2f8fffe4ca735": {
+        "state": "OFF",
+        "update": {
+            "state": "idle",
+            "installed_version": 16777284,
+            "latest_version": 16777284,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/zingo_cws-0x2805-1.0.44-prod.ota.ota.signed",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "color_mode": "xy",
+        "color": {
+            "x": 0.189,
+            "y": 0.706
+        },
+        "linkquality": 232,
+        "brightness": 3
+    },
+    "0x2c1165fffee44e94": {
+        "update": {
+            "state": "idle",
+            "installed_version": 65554,
+            "latest_version": 65554,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/zingo-lds-bulb-hwpwmcs-ws_release_prod_v65554_5d50205c-63c3-426d-bfba-4839c4b55bba.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "state": "OFF",
+        "brightness": 254,
+        "linkquality": 180
+    },
+    "0x2c1165fffe64b3ec": {
+        "update": {
+            "state": "idle",
+            "installed_version": 65554,
+            "latest_version": 65554,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/zingo-lds-bulb-hwpwmcs-ws_release_prod_v65554_5d50205c-63c3-426d-bfba-4839c4b55bba.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "state": "OFF",
+        "brightness": 254,
+        "linkquality": 152
+    },
+    "0x44e2f8fffe178de1": {
+        "battery": 100,
+        "temperature": 19.8,
+        "humidity": 43.6,
+        "comfort_temperature_min": 19,
+        "comfort_temperature_max": 27,
+        "comfort_humidity_min": 40,
+        "comfort_humidity_max": 60,
+        "temperature_units": "celsius",
+        "update": {
+            "state": "available",
+            "installed_version": 4105,
+            "latest_version": 8960,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02d_v2.3.0.ota",
+            "latest_release_notes": null
+        },
+        "linkquality": 144
+    },
+    "0x0ceff6fffe49bca5": {
+        "battery": 100,
+        "temperature": 22.7,
+        "humidity": 36.9,
+        "comfort_temperature_min": 19,
+        "comfort_temperature_max": 27,
+        "comfort_humidity_min": 40,
+        "comfort_humidity_max": 60,
+        "temperature_units": "celsius",
+        "update": {
+            "state": "available",
+            "installed_version": 4105,
+            "latest_version": 8960,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02d_v2.3.0.ota",
+            "latest_release_notes": null
+        },
+        "linkquality": 128
+    },
+    "0x0c4314fffebbf98f": {
+        "update": {
+            "state": "available",
+            "installed_version": 65572,
+            "latest_version": 33816598,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/zingo-kt-styrbar-remote_release_prod_v33816598_c00d5422-e816-48ec-87a6-40198661d2d5.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "battery": 100,
+        "linkquality": 148
+    },
+    "0x187a3efffe35b866": {
+        "state": "ON",
+        "linkquality": 96,
+        "brightness": 172
+    },
+    "0x187a3efffe35ff5d": {
+        "state": "ON",
+        "brightness": 249,
+        "linkquality": 152
+    },
+    "0xd4fe28fffe91dfb4": {
+        "update": {
+            "state": "idle",
+            "installed_version": 16777268,
+            "latest_version": 16777268,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/zingo-jetstrom-cws_release_prod_v16777268_023f19b9-f55b-4c94-a3fe-00c97755eb78.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "state": "OFF",
+        "brightness": 149,
+        "linkquality": 152
+    },
+    "0x44e2f8fffe0969ec": {
+        "battery": 100,
+        "temperature": 20.4,
+        "humidity": 41.8,
+        "comfort_temperature_min": 19,
+        "comfort_temperature_max": 27,
+        "comfort_humidity_min": 40,
+        "comfort_humidity_max": 60,
+        "temperature_units": "celsius",
+        "update": {
+            "state": "available",
+            "installed_version": 4105,
+            "latest_version": 8960,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02d_v2.3.0.ota",
+            "latest_release_notes": null
+        },
+        "linkquality": 152
+    },
+    "0x804b50fffeb0c925": {
+        "update": {
+            "state": "available",
+            "installed_version": 33816581,
+            "latest_version": 33816598,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/zingo-kt-styrbar-remote_release_prod_v33816598_c00d5422-e816-48ec-87a6-40198661d2d5.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "linkquality": 224,
+        "battery": 90
+    },
+    "0x804b50fffe006d88": {
+        "battery": 80,
+        "update": {
+            "state": "idle",
+            "installed_version": 604241925,
+            "latest_version": 604241925,
+            "latest_source": null,
+            "latest_release_notes": null
+        },
+        "linkquality": 204
+    },
+    "0x348d13fffe285b2c": {
+        "update": {
+            "state": "idle",
+            "installed_version": 16777268,
+            "latest_version": 16777268,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/zingo-jetstrom-cws_release_prod_v16777268_023f19b9-f55b-4c94-a3fe-00c97755eb78.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "state": "OFF",
+        "linkquality": 152
+    },
+    "0xb4e3f9fffe80d89a": {
+        "state": "OFF",
+        "power_on_behavior": "previous",
+        "update": {
+            "state": "idle",
+            "installed_version": 587765297,
+            "latest_version": 587765297,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/tradfri-control-outlet_release_prod_v587765297_20061876-85d6-4b39-8c9c-eb95620baa97.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "linkquality": 224
+    },
+    "0x804b50fffe5cdcc7": {
+        "update": {
+            "state": "available",
+            "installed_version": 537011747,
+            "latest_version": 587814449,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/tradfri-sy5882-bulb-ws_release_prod_v587814449_185b3c4d-da1b-4867-8c16-2cee1fc5c11d.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "state": "OFF",
+        "linkquality": 148
+    },
+    "0xb4e3f9fffeb9173e": {
+        "battery": 40,
+        "update": {
+            "state": "idle",
+            "installed_version": 604241925,
+            "latest_version": 604241925,
+            "latest_source": null,
+            "latest_release_notes": null
+        },
+        "linkquality": 212
+    },
+    "0x00124b00251c6ff0": {
+        "battery": 100,
+        "voltage": 3000,
+        "occupancy": false,
+        "battery_low": false,
+        "linkquality": 208
+    },
+    "0x00124b00292ddd12": {
+        "battery": 100,
+        "voltage": 3000,
+        "occupancy": false,
+        "battery_low": false,
+        "linkquality": 152
+    },
+    "0xb4e3f9fffe7c172d": {
+        "battery": 87,
+        "update": {
+            "state": "available",
+            "installed_version": 587728433,
+            "latest_version": 604241925,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/tradfri-controller_release_prod_v604241925_abef4451-762a-4ef9-8c11-dfd88c3e98f7.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "linkquality": 128
+    },
+    "0x847127fffecda644": {
+        "state": "ON",
+        "update": {
+            "state": "idle",
+            "installed_version": 587814449,
+            "latest_version": 587814449,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/tradfri-sy5882-bulb-ws_release_prod_v587814449_185b3c4d-da1b-4867-8c16-2cee1fc5c11d.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "linkquality": 88,
+        "color_mode": "color_temp",
+        "color_temp": 294,
+        "brightness": 144
+    },
+    "0xb0c7defffe8fc5ca": {
+        "brightness": 129,
+        "state": "ON",
+        "update": {
+            "state": "available",
+            "installed_version": 65538,
+            "latest_version": 16777220,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/tradfri-driver-zingo_release_prod_v16777220_1fd2b92c-45c5-44d0-97c5-5c71c2ecb8d2.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "linkquality": 112
+    },
+    "0x0c4314fffea62b22": {
+        "update": {
+            "state": "available",
+            "installed_version": 65572,
+            "latest_version": 33816598,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/zingo-kt-styrbar-remote_release_prod_v33816598_c00d5422-e816-48ec-87a6-40198661d2d5.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "battery": 50,
+        "linkquality": 72
+    },
+    "0x00124b00251a1dfd": {
+        "battery": 100,
+        "voltage": 3000,
+        "occupancy": true,
+        "battery_low": false,
+        "linkquality": 116
+    },
+    "0x00124b002503859e": {
+        "voltage": 3000,
+        "battery": 100,
+        "temperature": 22.49,
+        "humidity": 42.33,
+        "linkquality": 248
+    },
+    "0x00124b002502f7da": {
+        "voltage": 3000,
+        "temperature": 22.32,
+        "humidity": 46.77,
+        "battery": 100,
+        "linkquality": 144
+    },
+    "0x00124b0025045d05": {
+        "temperature": 5.59,
+        "humidity": 86.47,
+        "voltage": 2900,
+        "battery": 55.5,
+        "linkquality": 108
+    },
+    "0x54ef4410000d6a1a": {
+        "illuminance": 1777,
+        "linkquality": 156,
+        "voltage": 2302,
+        "battery": 0,
+        "power_outage_count": 16
+    },
+    "0x00124b0025007155": {
+        "voltage": 2900,
+        "temperature": 19.43,
+        "humidity": 50.8,
+        "battery": 96.5,
+        "linkquality": 204
+    },
+    "0x5cc7c1fffea50302": {
+        "battery": 89,
+        "voltage": 1300,
+        "linkquality": 224
+    },
+    "0xa4c138cc2420c657": {
+        "state": "OFF",
+        "brightness": 15,
+        "linkquality": 240
+    },
+    "0xa4c138bd166741e3": {
+        "brightness": 59,
+        "state": "OFF",
+        "do_not_disturb": false,
+        "linkquality": 168
+    },
+    "0x2c1165fffe787b52": {
+        "update": {
+            "state": "idle",
+            "installed_version": 65554,
+            "latest_version": 65554,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/zingo-lds-bulb-hwpwmcs-ws_release_prod_v65554_5d50205c-63c3-426d-bfba-4839c4b55bba.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "state": "OFF",
+        "linkquality": 108
+    },
+    "0x2c1165fffeb8daa0": {
+        "state": "OFF",
+        "power_on_behavior": "previous",
+        "update": {
+            "state": "idle",
+            "installed_version": 587765297,
+            "latest_version": 587765297,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/tradfri-control-outlet_release_prod_v587765297_20061876-85d6-4b39-8c9c-eb95620baa97.ota",
+            "latest_release_notes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+        },
+        "linkquality": 108
+    },
+    "0xa4c1382f7960e3f3": {
+        "do_not_disturb": false,
+        "brightness": 115,
+        "state": "ON",
+        "linkquality": 160
+    },
+    "0x187a3efffe277e5d": {
+        "state": "OFF",
+        "brightness": 157,
+        "power_on_behavior": "previous",
+        "linkquality": 200
+    },
+    "0x348d13fffe072b6b": {
+        "state": "OFF",
+        "power_on_behavior": "previous",
+        "power": 0,
+        "current": 0,
+        "voltage": 229.8,
+        "energy": 0,
+        "update": {
+            "state": "idle",
+            "installed_version": 33816645,
+            "latest_version": 33816645,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/inspelning-smart-plug-soc_release_prod_v33816645_02579ff4-6fec-42f6-8957-4048def87def.ota",
+            "latest_release_notes": null
+        },
+        "linkquality": 116
+    },
+    "0x00124b00292e120f": {
+        "battery": 76.5,
+        "voltage": 2900,
+        "occupancy": false,
+        "battery_low": false,
+        "linkquality": 148
+    },
+    "0x00124b00292cde5b": {
+        "battery": 75.5,
+        "voltage": 2900,
+        "occupancy": false,
+        "battery_low": false,
+        "linkquality": 128
+    },
+    "0x180df9fffe8536eb": {
+        "power": 93,
+        "current": 0.71,
+        "linkquality": 144,
+        "update": {
+            "state": "idle",
+            "installed_version": 33816645,
+            "latest_version": 33816645,
+            "latest_source": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/IKEA/inspelning-smart-plug-soc_release_prod_v33816645_02579ff4-6fec-42f6-8957-4048def87def.ota",
+            "latest_release_notes": null
+        },
+        "energy": 0.2,
+        "voltage": 229.9
+    }
+}

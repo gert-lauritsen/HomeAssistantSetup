@@ -1,0 +1,85 @@
+[2026-02-21T13:36:27.853Z] info  code-server 4.109.2 9184b645cc7aa41b750e2f2ef956f2896512dd84
+[2026-02-21T13:36:27.854Z] info  Using user-data-dir /config/data
+[2026-02-21T13:36:27.864Z] info  Using config file /config/.config/code-server/config.yaml
+[2026-02-21T13:36:27.864Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2026-02-21T13:36:27.864Z] info    - Authentication is disabled
+[2026-02-21T13:36:27.864Z] info    - Not serving HTTPS
+[2026-02-21T13:36:27.864Z] info  Session server listening on /config/data/code-server-ipc.sock
+[15:00:36] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[15:00:36] Extension host agent started.
+[15:00:36] Started initializing default profile extensions in extensions installation folder. file:///config/extensions
+[15:00:36] Completed initializing default profile extensions in extensions installation folder. file:///config/extensions
+[15:00:37] [10.160.0.150][44be678b][ManagementConnection] New connection established.
+[15:00:37] [10.160.0.150][285e4d9e][ExtensionHostConnection] New connection established.
+[15:00:37] [10.160.0.150][285e4d9e][ExtensionHostConnection] <249> Launched Extension Host Process.
+[15:00:37] [10.160.0.150][285e4d9e][ExtensionHostConnection] <249> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[15:02:46] [10.160.0.150][44be678b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[17:12:37] [10.160.0.150][b02410f9][ManagementConnection] New connection established.
+[17:12:37] [10.160.0.150][b3a05811][ExtensionHostConnection] New connection established.
+[17:12:37] [10.160.0.150][b3a05811][ExtensionHostConnection] <23737> Launched Extension Host Process.
+[17:12:38] [10.160.0.150][b3a05811][ExtensionHostConnection] <23737> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[17:12:40] [10.160.0.150][b02410f9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[17:12:43] [10.160.0.150][0aedf156][ManagementConnection] New connection established.
+[17:12:44] [10.160.0.150][2c8f28c1][ExtensionHostConnection] New connection established.
+[17:12:44] [10.160.0.150][2c8f28c1][ExtensionHostConnection] <23822> Launched Extension Host Process.
+[17:12:44] [10.160.0.150][2c8f28c1][ExtensionHostConnection] <23822> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[17:12:53] [10.160.0.150][0aedf156][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[17:17:37] [10.160.0.150][285e4d9e][ExtensionHostConnection] <249> Extension Host Process exited with code: 0, signal: null.
+[17:17:44] [10.160.0.150][b3a05811][ExtensionHostConnection] <23737> Extension Host Process exited with code: 0, signal: null.
+[2026-02-21T18:42:21.127Z] info  code-server 4.109.2 9184b645cc7aa41b750e2f2ef956f2896512dd84
+[2026-02-21T18:42:21.133Z] info  Using user-data-dir /config/data
+[2026-02-21T18:42:21.144Z] info  Using config file /config/.config/code-server/config.yaml
+[2026-02-21T18:42:21.144Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2026-02-21T18:42:21.145Z] info    - Authentication is disabled
+[2026-02-21T18:42:21.145Z] info    - Not serving HTTPS
+[2026-02-21T18:42:21.145Z] info  Session server listening on /config/data/code-server-ipc.sock
+[21:38:35] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[21:38:35] Extension host agent started.
+[21:38:37] [10.160.0.13][5df15327][ManagementConnection] New connection established.
+[21:38:38] [10.160.0.13][d199b937][ExtensionHostConnection] New connection established.
+[21:38:38] [10.160.0.13][d199b937][ExtensionHostConnection] <237> Launched Extension Host Process.
+[21:38:38] [10.160.0.13][d199b937][ExtensionHostConnection] <237> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[21:38:55] [10.160.0.13][5df15327][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[00:39:09] [10.160.0.13][d199b937][ExtensionHostConnection] <237> Extension Host Process exited with code: 0, signal: null.
+[12:35:02] [10.160.0.150][eb5d336d][ManagementConnection] New connection established.
+[12:35:02] [10.160.0.150][9519a439][ExtensionHostConnection] New connection established.
+[12:35:02] [10.160.0.150][9519a439][ExtensionHostConnection] <32299> Launched Extension Host Process.
+[12:35:02] [10.160.0.150][9519a439][ExtensionHostConnection] <32299> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[12:35:04] [10.160.0.150][eb5d336d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:35:16] [10.160.0.150][9519a439][ExtensionHostConnection] <32299> Extension Host Process exited with code: 0, signal: null.
+[2026-02-23T08:28:30.802Z] info  code-server 4.109.2 9184b645cc7aa41b750e2f2ef956f2896512dd84
+[2026-02-23T08:28:30.807Z] info  Using user-data-dir /config/data
+[2026-02-23T08:28:30.817Z] info  Using config file /config/.config/code-server/config.yaml
+[2026-02-23T08:28:30.818Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2026-02-23T08:28:30.818Z] info    - Authentication is disabled
+[2026-02-23T08:28:30.818Z] info    - Not serving HTTPS
+[2026-02-23T08:28:30.818Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2026-02-23T08:55:07.342Z] info  code-server 4.109.2 9184b645cc7aa41b750e2f2ef956f2896512dd84
+[2026-02-23T08:55:07.348Z] info  Using user-data-dir /config/data
+[2026-02-23T08:55:07.359Z] info  Using config file /config/.config/code-server/config.yaml
+[2026-02-23T08:55:07.359Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2026-02-23T08:55:07.359Z] info    - Authentication is disabled
+[2026-02-23T08:55:07.359Z] info    - Not serving HTTPS
+[2026-02-23T08:55:07.359Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2026-02-23T08:59:27.554Z] info  code-server 4.109.2 9184b645cc7aa41b750e2f2ef956f2896512dd84
+[2026-02-23T08:59:27.560Z] info  Using user-data-dir /config/data
+[2026-02-23T08:59:27.571Z] info  Using config file /config/.config/code-server/config.yaml
+[2026-02-23T08:59:27.571Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2026-02-23T08:59:27.571Z] info    - Authentication is disabled
+[2026-02-23T08:59:27.571Z] info    - Not serving HTTPS
+[2026-02-23T08:59:27.571Z] info  Session server listening on /config/data/code-server-ipc.sock

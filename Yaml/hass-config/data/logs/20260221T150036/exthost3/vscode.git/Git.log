@@ -1,0 +1,50 @@
+2026-02-21 17:12:44.887 [info] [main] Log level: Info
+2026-02-21 17:12:44.887 [info] [main] Validating found git in: "git"
+2026-02-21 17:12:44.887 [info] [main] Using git "2.43.0" from "git"
+2026-02-21 17:12:44.887 [info] [Model][doInitialScan] Initial repository scan started
+2026-02-21 17:12:44.887 [info] > git rev-parse --show-toplevel [1ms]
+2026-02-21 17:12:44.887 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-02-21 17:12:44.887 [info] > git rev-parse --show-toplevel [0ms]
+2026-02-21 17:12:44.887 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-02-21 17:12:44.887 [info] > git rev-parse --show-toplevel [1ms]
+2026-02-21 17:12:44.887 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-02-21 17:12:44.887 [info] > git rev-parse --show-toplevel [0ms]
+2026-02-21 17:12:44.887 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-02-21 17:12:44.887 [info] > git rev-parse --show-toplevel [1ms]
+2026-02-21 17:12:44.887 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-02-21 17:12:44.888 [info] > git rev-parse --show-toplevel [1ms]
+2026-02-21 17:12:44.888 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-02-21 17:12:44.890 [info] > git rev-parse --show-toplevel [0ms]
+2026-02-21 17:12:44.890 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-02-21 17:12:44.912 [info] > git rev-parse --show-toplevel [20ms]
+2026-02-21 17:12:44.912 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-02-21 17:12:44.917 [info] > git rev-parse --show-toplevel [3ms]
+2026-02-21 17:12:44.917 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-02-21 17:12:44.920 [info] > git rev-parse --show-toplevel [1ms]
+2026-02-21 17:12:44.920 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-02-21 17:12:44.923 [info] > git rev-parse --show-toplevel [1ms]
+2026-02-21 17:12:44.923 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-02-21 17:12:44.926 [info] > git rev-parse --show-toplevel [0ms]
+2026-02-21 17:12:44.926 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-02-21 17:12:44.928 [info] > git rev-parse --show-toplevel [1ms]
+2026-02-21 17:12:44.928 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-02-21 17:12:44.930 [info] > git rev-parse --show-toplevel [0ms]
+2026-02-21 17:12:44.931 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-02-21 17:12:44.933 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-02-21 17:12:46.784 [info] > git rev-parse --show-toplevel [2ms]
+2026-02-21 17:12:46.784 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

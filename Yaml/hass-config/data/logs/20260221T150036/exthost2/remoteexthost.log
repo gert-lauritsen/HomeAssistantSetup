@@ -1,0 +1,28 @@
+2026-02-21 17:12:38.374 [info] Extension host with pid 23737 started
+2026-02-21 17:12:38.374 [error] Error: EEXIST: file already exists, open '/config/data/User/workspaceStorage/-3c686b08/vscode.lock'
+2026-02-21 17:12:38.375 [info] Lock '/config/data/User/workspaceStorage/-3c686b08/vscode.lock': Could not acquire lock, checking if the file is stale.
+2026-02-21 17:12:38.375 [info] Lock '/config/data/User/workspaceStorage/-3c686b08/vscode.lock': The lock does not look stale, elapsed: 784 ms, giving up.
+2026-02-21 17:12:38.380 [info] Lock '/config/data/User/workspaceStorage/-3c686b08-1/vscode.lock': Lock acquired.
+2026-02-21 17:12:38.443 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-02-21 17:12:38.444 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-02-21 17:12:38.512 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-02-21 17:12:38.548 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-02-21 17:12:38.548 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-02-21 17:12:38.652 [info] Eager extensions activated
+2026-02-21 17:12:38.652 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-02-21 17:12:38.653 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-02-21 17:17:44.172 [info] Extension host terminating: renderer disconnected for too long (2)
+2026-02-21 17:17:44.173 [info] Lock '/config/data/User/workspaceStorage/-3c686b08-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-02-21 17:17:44.189 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at ru (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:7:1394)
+	at file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:128571
+	at Array.forEach (<anonymous>)
+	at kE.dispose (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:29:128511)
+	at YK.terminate (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:120:10238)
+	at BN.terminate (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+	at zr (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:405:11144)
+	at $C.a (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:405:8031)
+	at $C.h (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:28:76986)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2026-02-21 17:17:44.202 [info] Extension host with pid 23737 exiting with code 0

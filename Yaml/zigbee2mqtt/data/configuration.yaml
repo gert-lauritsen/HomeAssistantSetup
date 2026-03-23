@@ -1,0 +1,115 @@
+homeassistant:
+  enabled: true
+frontend:
+  enabled: true
+mqtt:
+  server: mqtt://mosquitto:1883
+serial:
+  port: tcp://10.160.0.231:6638
+  adapter: ezsp
+# Disable green led?
+  disable_led: falsecat ./z
+# Set output power to max 20
+advanced:
+  transmit_power: 20
+version: 5
+devices:
+  '0x2c1165fffee9e3c4':
+    friendly_name: Lampe ved skrivebord
+    description: Lampe ved skrivebord
+  '0x84fd27fffec21bf4':
+    friendly_name: Lampe ved skruestik
+    description: Lampe ved skruestik
+  '0x847127fffed1fe1f':
+    friendly_name: Sengelampe
+    description: Sengelampe
+  '0x00124b00234311db':
+    friendly_name: Skrivebord lampe
+    description: Skrivebord lampe
+  '0x44e2f8fffe4ca735':
+    friendly_name: Grøn mand
+    description: Grøn mand
+  '0xa4c1382c6b0ce40d':
+    friendly_name: LEDstrip langs loft
+    description: LEDstrip langs loft
+  '0x2c1165fffee44e94':
+    friendly_name: Skrivebordlampe ovenpå 2
+    description: Skrivebordlampe ovenpå 2
+  '0x2c1165fffe64b3ec':
+    friendly_name: Skrivebord lampe ovenpå 1
+    description: Skrivebord lampe ovenpå 1
+  '0x44e2f8fffe178de1':
+    friendly_name: Skrivbord temperator ovenpå
+    description: Skrivbord temperator ovenpå
+  '0x0ceff6fffe49bca5':
+    friendly_name: kældertemperatur
+    description: kældertemperatur
+  '0x0c4314fffebbf98f':
+    friendly_name: Skrivebord ovenpå remote
+    description: Skirvebord ovenpå remote
+  '0x187a3efffe35b866':
+    friendly_name: Arbejdslampe1
+  '0x187a3efffe35ff5d':
+    friendly_name: Arbejdslampe2
+  '0xd4fe28fffe91dfb4':
+    friendly_name: Entre1
+  '0x44e2f8fffe0969ec':
+    friendly_name: Temperatur Lotte arbejdsværelse
+  '0x804b50fffeb0c925':
+    friendly_name: Lotte Remote Seng
+  '0x804b50fffe006d88':
+    friendly_name: Gert Remote Seng
+  '0x348d13fffe285b2c':
+    friendly_name: Entre2
+  '0x804b50fffe5cdcc7':
+    friendly_name: Terrasselys
+  '0xb4e3f9fffe80d89a':
+    friendly_name: SengeLampeBedroom
+  '0xb4e3f9fffeb9173e':
+    friendly_name: KøkkenRemote
+  '0x00124b00251c6ff0':
+    friendly_name: TrappeNedMotion
+  '0x00124b00292ddd12':
+    friendly_name: EntreMotion
+  '0xb4e3f9fffe7c172d':
+    friendly_name: SengeRemoteKælder
+  '0x847127fffecda644':
+    friendly_name: LampeFadøl
+  '0xb0c7defffe8fc5ca':
+    friendly_name: InstrumentLys
+  '0x0c4314fffea62b22':
+    friendly_name: RemoteKælderIndenforDør
+  '0x00124b00251a1dfd':
+    friendly_name: MotionKælder
+  '0x00124b002503859e':
+    friendly_name: StueTermometer
+  '0x00124b002502f7da':
+    friendly_name: BadeværelseTermometer
+  '0x00124b0025045d05':
+    friendly_name: udetermometer
+  '0x54ef4410000d6a1a':
+    friendly_name: UdeLysSensor
+  '0x00124b0025007155':
+    friendly_name: SoveværelseTermometer
+  '0x5cc7c1fffea50302':
+    friendly_name: Gert senge remote 2
+  '0xa4c138cc2420c657':
+    friendly_name: StueLedStrip
+  '0xa4c138bd166741e3':
+    friendly_name: LampeOverSpisebord
+  '0x2c1165fffe787b52':
+    friendly_name: Hoveddør
+  '0x2c1165fffeb8daa0':
+    friendly_name: Indgangslys
+  '0xa4c1382f7960e3f3':
+    friendly_name: InstrumentlysØverst
+  '0x187a3efffe277e5d':
+    friendly_name: Køkken_Ø
+  '0x348d13fffe072b6b':
+    friendly_name: UnderTerasse
+  '0x00124b00292e120f':
+    friendly_name: MotionTerasse1
+  '0x00124b00292cde5b':
+    friendly_name: MotionTerasse2
+  '0x180df9fffe8536eb':
+    friendly_name: PowerMeter1

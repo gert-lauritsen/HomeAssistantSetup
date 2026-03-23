@@ -1,0 +1,9 @@
+{
+  "query": {
+    "folder": "/config"
+  },
+  "update": {
+    "checked": 1771682437220,
+    "version": "4.109.2"
+  }
+}

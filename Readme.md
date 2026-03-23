@@ -41,6 +41,16 @@ Why this works well:
 - SLZB-06M reachable on LAN (e.g. `tcp://10.160.0.231:6638`)
 
 ---
+## Install home assistance
+Command to run
+```
+sudo python3 InstallHaLinuxDocker_v2.py \
+  --slzb-tcp tcp://<slzb's Ip adr>:6638 \
+  --mqtt-user hass \
+  --mqtt-password 'StrongMQTTPassword!' \
+  --code-server-password 'StrongCodePassword!'
+```  
+---
 
 ## Directory layout
 

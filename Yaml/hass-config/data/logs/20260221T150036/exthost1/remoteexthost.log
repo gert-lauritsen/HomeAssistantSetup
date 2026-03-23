@@ -1,0 +1,17 @@
+2026-02-21 15:00:37.988 [info] Extension host with pid 249 started
+2026-02-21 15:00:37.990 [info] Lock '/config/data/User/workspaceStorage/-3c686b08/vscode.lock': Lock acquired.
+2026-02-21 15:00:38.141 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-02-21 15:00:38.142 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-02-21 15:00:38.142 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-02-21 15:00:38.142 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-02-21 15:00:38.142 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-02-21 15:00:38.142 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-02-21 15:00:38.404 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-02-21 15:00:38.411 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-02-21 15:00:38.456 [info] Eager extensions activated
+2026-02-21 15:00:38.457 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-02-21 15:00:38.457 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-02-21 15:00:43.308 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-02-21 17:17:37.829 [info] Extension host terminating: renderer disconnected for too long (2)
+2026-02-21 17:17:37.830 [info] Lock '/config/data/User/workspaceStorage/-3c686b08/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-02-21 17:17:37.861 [info] Extension host with pid 249 exiting with code 0

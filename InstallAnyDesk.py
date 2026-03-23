@@ -5,13 +5,14 @@ Ubuntu AnyDesk unattended access helper
 What it does:
 - Disables Wayland (forces Xorg) in /etc/gdm3/custom.conf
 - Optionally enables GDM auto-login for a specified user
-- Enables + starts anydesk.service
+- Detects the correct AnyDesk systemd service and enables + starts it
 - Optionally installs openssh-server and enables ssh
 
 Usage:
-  sudo python3 setup_anydesk_unattended.py --user gert --enable-autologin --enable-ssh
+  sudo python3 InstallAnyDesk.py --user gert --enable-autologin --enable-ssh
 
 Notes:
+- If AnyDesk is not installed, the script will add the official AnyDesk APT repository and install it.
 - AnyDesk unattended password still needs to be set via AnyDesk GUI.
 """
 
@@ -29,14 +30,19 @@ from pathlib import Path
 GDM_CUSTOM_CONF = Path("/etc/gdm3/custom.conf")
 
 
-def run(cmd: list[str], check: bool = True) -> subprocess.CompletedProcess:
+def run(cmd: list[str], check: bool = True, capture_output: bool = False) -> subprocess.CompletedProcess:
     print(f"+ {' '.join(cmd)}")
-    return subprocess.run(cmd, check=check, text=True)
+    return subprocess.run(
+        cmd,
+        check=check,
+        text=True,
+        capture_output=capture_output,
+    )
 
 
 def require_root() -> None:
     if os.geteuid() != 0:
-        raise SystemExit("This script must be run as root. Use: sudo python3 setup_anydesk_unattended.py ...")
+        raise SystemExit("This script must be run as root. Use: sudo python3 InstallAnyDesk.py ...")
 
 
 def backup_file(path: Path) -> Path:
@@ -58,15 +64,12 @@ def ensure_line_in_section(conf: str, section: str, key: str, value: str) -> str
     match = section_re.search(conf)
 
     if not match:
-        # Append section at end
         if not conf.endswith("\n"):
             conf += "\n"
         conf += f"\n[{section}]\n{key}={value}\n"
         return conf
 
-    # Find the section block range
     start = match.end()
-    # Find next section header or end of file
     next_section = re.search(r"^\[.+?\]\s*$", conf[start:], flags=re.MULTILINE)
     end = start + (next_section.start() if next_section else len(conf[start:]))
 
@@ -76,7 +79,6 @@ def ensure_line_in_section(conf: str, section: str, key: str, value: str) -> str
     if key_re.search(block):
         block = key_re.sub(f"{key}={value}", block, count=1)
     else:
-        # Ensure block ends with newline, then append
         if not block.endswith("\n"):
             block += "\n"
         block += f"{key}={value}\n"
@@ -87,8 +89,6 @@ def ensure_line_in_section(conf: str, section: str, key: str, value: str) -> str
 def disable_wayland_in_gdm() -> None:
     backup_file(GDM_CUSTOM_CONF)
     conf = GDM_CUSTOM_CONF.read_text(encoding="utf-8", errors="replace")
-
-    # In GDM, WaylandEnable=false is typically under [daemon], but it is accepted anywhere.
     conf2 = ensure_line_in_section(conf, "daemon", "WaylandEnable", "false")
 
     if conf2 != conf:
@@ -113,7 +113,43 @@ def enable_gdm_autologin(user: str) -> None:
         print("GDM auto-login settings already present (no change).")
 
 
+def command_exists(cmd: str) -> bool:
+    return shutil.which(cmd) is not None
+
+
+def service_exists(service: str) -> bool:
+    result = run(["systemctl", "list-unit-files", service], check=False, capture_output=True)
+    stdout = result.stdout or ""
+    return service in stdout
+
+
+def find_anydesk_service() -> str | None:
+    candidates = [
+        "anydesk.service",
+        "anydesk",
+    ]
+
+    for service in candidates:
+        if service_exists(service):
+            return service
+
+    result = run(["systemctl", "list-unit-files"], check=False, capture_output=True)
+    stdout = result.stdout or ""
+    for line in stdout.splitlines():
+        unit = line.split()[0] if line.split() else ""
+        if "anydesk" in unit.lower() and unit.endswith(".service"):
+            return unit
+
+    return None
+
+
 def systemctl_enable_start(service: str) -> None:
+    if not service_exists(service):
+        raise SystemExit(
+            f"Systemd service '{service}' was not found. "
+            "Check whether the package is installed and what the actual unit name is."
+        )
+
     run(["systemctl", "enable", service])
     run(["systemctl", "start", service])
     run(["systemctl", "status", service, "--no-pager"], check=False)
@@ -122,6 +158,33 @@ def systemctl_enable_start(service: str) -> None:
 def apt_install(pkgs: list[str]) -> None:
     run(["apt-get", "update"])
     run(["apt-get", "install", "-y"] + pkgs)
+
+
+def install_anydesk() -> None:
+    print("== Installing AnyDesk ==")
+
+    apt_install(["ca-certificates", "curl", "apt-transport-https"])
+    run(["install", "-m", "0755", "-d", "/etc/apt/keyrings"])
+    run(["curl", "-fsSL", "https://keys.anydesk.com/repos/DEB-GPG-KEY", "-o", "/etc/apt/keyrings/keys.anydesk.com.asc"])
+    run(["chmod", "a+r", "/etc/apt/keyrings/keys.anydesk.com.asc"])
+    run(["bash", "-lc", 'echo "deb [signed-by=/etc/apt/keyrings/keys.anydesk.com.asc] https://deb.anydesk.com all main" > /etc/apt/sources.list.d/anydesk-stable.list'])
+    apt_install(["anydesk"])
+
+
+def ensure_anydesk_running() -> None:
+    if not command_exists("anydesk"):
+        install_anydesk()
+
+    service = find_anydesk_service()
+    if not service:
+        raise SystemExit(
+            "AnyDesk appears to be installed, but no matching systemd unit was found.\n"
+            "Run this to inspect available units:\n"
+            "  systemctl list-unit-files | grep -i anydesk"
+        )
+
+    print(f"Using AnyDesk service: {service}")
+    systemctl_enable_start(service)
 
 
 def main() -> None:
@@ -137,7 +200,7 @@ def main() -> None:
     if not GDM_CUSTOM_CONF.exists():
         raise SystemExit(
             f"{GDM_CUSTOM_CONF} not found. This script assumes GDM (Ubuntu GNOME). "
-            "If you use LightDM/SDDM, tell me and I’ll adapt it."
+            "If you use LightDM/SDDM, the script must be adapted."
         )
 
     print("== Configuring GDM to use Xorg (disable Wayland) ==")
@@ -150,7 +213,7 @@ def main() -> None:
         print("== Skipping auto-login (not requested) ==")
 
     print("== Ensuring AnyDesk service is enabled and running ==")
-    systemctl_enable_start("anydesk.service")
+    ensure_anydesk_running()
 
     if args.enable_ssh:
         print("== Installing + enabling OpenSSH server ==")
