@@ -38,7 +38,8 @@ Why this works well:
 - Debian / Ubuntu Linux
 - Root or sudo access
 - Wired Ethernet
-- SLZB-06M reachable on LAN (e.g. `tcp://10.160.0.231:6638`)
+- SLZB-06M reachable on LAN (e.g. `tcp://10.160.0.231:6638`) or
+- A USB zigbee doggle (e.g. Sonoff, ConBee)
 
 ---
 ## Install home assistance
@@ -49,7 +50,11 @@ sudo python3 InstallHaLinuxDocker_v2.py \
   --mqtt-user hass \
   --mqtt-password 'StrongMQTTPassword!' \
   --code-server-password 'StrongCodePassword!'
-```  
+```
+If you are using a doggle like Sonoff or ConBee look here:
+
+[USB Doggle](./zigbee_2_mqtt_usb_vs_tcp_setup_guide.md)
+
 ---
 
 ## Directory layout
